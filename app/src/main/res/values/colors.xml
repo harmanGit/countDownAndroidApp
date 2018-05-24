@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#128099</color>
+    <color name="colorPrimaryDark">#099fc1</color>
+    <color name="colorAccent">#0686ac</color>
+    <color name="timeColor">#128099</color>
+    <color name="labelColor">#ffffff</color>
+    <color name="bgColor">#202020</color>
+</resources>

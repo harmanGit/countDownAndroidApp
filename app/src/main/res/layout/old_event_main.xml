@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="4"
+        android:rowCount="2"
+        tools:context=".CountDownActivity">
+
+        <!-- In order to return a value from CountdownActivity, I had to add:
+             xmlns:tools="http://schemas.android.com/tools"
+             tools:context=".CountdownActivity" -->
+
+        <TextView
+            android:id="@+id/daysRemainingView0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/init_time"
+            android:textColor="@color/timeColor"
+            android:textSize="@dimen/time_size" />
+
+        <TextView
+            android:id="@+id/hrsRemainingView0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/init_time"
+            android:textColor="@color/timeColor"
+            android:textSize="@dimen/time_size" />
+
+        <TextView
+            android:id="@+id/minsRemainingView0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/init_time"
+            android:textColor="@color/timeColor"
+            android:textSize="@dimen/time_size" />
+
+        <TextView
+            android:id="@+id/secsRemainingView0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/init_time"
+            android:textColor="@color/timeColor"
+            android:textSize="@dimen/time_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/days_label"
+            android:textColor="@color/labelColor"
+            android:textSize="@dimen/label_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/hrs_label"
+            android:textColor="@color/labelColor"
+            android:textSize="@dimen/label_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/mins_label"
+            android:textColor="@color/labelColor"
+            android:textSize="@dimen/label_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/secs_label"
+            android:textColor="@color/labelColor"
+            android:textSize="@dimen/label_size" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear Event 1"
+        android:onClick="button0"
+        />
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="4"
+        android:rowCount="2"
+        tools:context=".CountDownActivity">
+
+        <!-- In order to return a value from CountdownActivity, I had to add:
+             xmlns:tools="http://schemas.android.com/tools"
+             tools:context=".CountdownActivity" -->
+
+        <TextView
+            android:id="@+id/daysRemainingView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/init_time"
+            android:textColor="@color/timeColor"
+            android:textSize="@dimen/time_size" />
+
+        <TextView
+            android:id="@+id/hrsRemainingView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/init_time"
+            android:textColor="@color/timeColor"
+            android:textSize="@dimen/time_size" />
+
+        <TextView
+            android:id="@+id/minsRemainingView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/init_time"
+            android:textColor="@color/timeColor"
+            android:textSize="@dimen/time_size" />
+
+        <TextView
+            android:id="@+id/secsRemainingView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/init_time"
+            android:textColor="@color/timeColor"
+            android:textSize="@dimen/time_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/days_label"
+            android:textColor="@color/labelColor"
+            android:textSize="@dimen/label_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/hrs_label"
+            android:textColor="@color/labelColor"
+            android:textSize="@dimen/label_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/mins_label"
+            android:textColor="@color/labelColor"
+            android:textSize="@dimen/label_size" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/secs_label"
+            android:textColor="@color/labelColor"
+            android:textSize="@dimen/label_size" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear Event 2"
+        android:onClick="button1"/>
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="4"
+        android:layout_gravity="center"
+        tools:context=".CountDownActivity">
+
+        <!-- In order to return a value from CountdownActivity, I had to add:
+             xmlns:tools="http://schemas.android.com/tools"
+             tools:context=".CountdownActivity" -->
+
+        <TextView
+            android:id="@+id/daysRemainingView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/init_time"
+            android:textColor="@color/timeColor"
+            android:textSize="@dimen/time_size"/>
+
+        <TextView
+            android:id="@+id/hrsRemainingView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/init_time"
+            android:textColor="@color/timeColor"
+            android:textSize="@dimen/time_size"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:id="@+id/minsRemainingView2"
+            android:text="@string/init_time"
+            android:textColor="@color/timeColor"
+            android:textSize="@dimen/time_size"/>
+
+        <TextView
+            android:id="@+id/secsRemainingView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/init_time"
+            android:textColor="@color/timeColor"
+            android:textSize="@dimen/time_size"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/days_label"
+            android:textColor="@color/labelColor"
+            android:textSize="@dimen/label_size"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/hrs_label"
+            android:textColor="@color/labelColor"
+            android:textSize="@dimen/label_size"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/mins_label"
+            android:textColor="@color/labelColor"
+            android:textSize="@dimen/label_size"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/text_view_margin_oldEvent"
+            android:text="@string/secs_label"
+            android:textColor="@color/labelColor"
+            android:textSize="@dimen/label_size"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear Event 3"
+        android:onClick="button2"/>
+</LinearLayout>
